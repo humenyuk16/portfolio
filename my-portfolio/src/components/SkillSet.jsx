@@ -1,14 +1,14 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import css from "../assets/icons/css.png";
-import html from "../assets/icons/cart.png";
-import javascript from "../assets/icons/javascript.png";
-import react from "../assets/icons/react.png";
-import tailwind from "../assets/icons/tailwind-css.png";
-import git from "../assets/icons/git.png";
-import node from "../assets/icons/node.png";
-import figma from "../assets/icons/figma.png";
+import css from "../../public/assets/icons/css.png";
+import html from "../../public/assets/icons/cart.png";
+import javascript from "../../public/assets/icons/javascript.png";
+import react from "../../public/assets/icons/react.png";
+import tailwind from "../../public/assets/icons/tailwind-css.png";
+import git from "../../public/assets/icons/git.png";
+import node from "../../public/assets/icons/node.png";
+import figma from "../../public/assets/icons/figma.png";
 
 const SkillSet = () => {
   const responsive = {

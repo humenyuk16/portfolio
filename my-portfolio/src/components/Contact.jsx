@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import FormImage from "../assets/images/undraw_Happy_news_re_tsbd.png";
+import FormImage from "../../public/assets/images/undraw_Happy_news_re_tsbd.png";
 import Modal from "./Modal";
 
 const Contact = () => {

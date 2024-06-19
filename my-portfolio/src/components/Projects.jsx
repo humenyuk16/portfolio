@@ -1,15 +1,15 @@
 import React, { useRef } from "react";
 import useVisibility from "../hooks/useVisibility";
 import ProjectCard from "./ProjectCard";
-import Meal_Sharing from "../assets/project_img/meal_sharing.png";
-import QuizApp from "../assets/project_img/quiz_app.png";
-import Todo from "../assets/project_img/todo.png";
-import AdviceGenerator from "../assets/project_img/advice_generator.png";
-import FigmaProject1 from "../assets/project_img/figma1.png";
-import FigmaProject2 from "../assets/project_img/figma2.png";
-import FigmaProject3 from "../assets/project_img/figma3.png";
-import FigmaProject4 from "../assets/project_img/figma4.png";
-import FigmaProject5 from "../assets/project_img/figma5.png";
+import Meal_Sharing from "../../public/assets/project_img/meal_sharing.png";
+import QuizApp from "../../public/assets/project_img/quiz_app.png";
+import Todo from "../../public/assets/project_img/todo.png";
+import AdviceGenerator from "../../public/assets/project_img/advice_generator.png";
+import FigmaProject1 from "../../public/assets/project_img/figma1.png";
+import FigmaProject2 from "../../public/assets/project_img/figma2.png";
+import FigmaProject3 from "../../public/assets/project_img/figma3.png";
+import FigmaProject4 from "../../public/assets/project_img/figma4.png";
+import FigmaProject5 from "../../public/assets/project_img/figma5.png";
 
 const Projects = () => {
   const projectsTab1 = [

@@ -1,7 +1,7 @@
-import instagram from "../assets/icons/instagram.png";
-import github from "../assets/icons/github.png";
-import linkedin from "../assets/icons/linked.png";
-import CV from "../assets/icons/user-profile.png";
+import instagram from "../../public/assets/icons/instagram.png";
+import github from "../../public/assets/icons/github.png";
+import linkedin from "../../public/assets/icons/linked.png";
+import CV from "../../public/assets/icons/user-profile.png";
 
 const Footer = () => {
   return (
