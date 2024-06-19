@@ -10,9 +10,9 @@ export const theme = {
       xl: '12px',
     },
     backgroundImage: {
-      'bg-image': "url('./assets/images/bg.jpg')",
-      'bg-image-line': "url('./assets/images/Frame.png')",
-      'drop-line': "url('./assets/images/drop_line.png')",
+      'bg-image': "url('/assets/images/bg.jpg')",
+      'bg-image-line': "url('/assets/images/Frame.png')",
+      'drop-line': "url('/assets/images/drop_line.png')",
       "elips": "url('./assets/images/Ellipse13.png')",
       'custom-gradient': 'linear-gradient(45deg, #eac2b1, #f6e3e4, #f6cdd4)',
       'section-gradient': 'linear-gradient(to bottom, #fcecce, #ffffff)',
