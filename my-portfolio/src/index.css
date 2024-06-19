@@ -93,3 +93,7 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+.text-6xl.relative {
+  height: 2em;
+}

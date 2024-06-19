@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="tooltip">
             <a
-              href="https://www.linkedin.com/in/anastasiia-humenyuk/"
+              href="https://www.linkedin.com/in/anastasiia-humeniuk/"
               target="_blank"
               rel="noopener noreferrer"
             >
