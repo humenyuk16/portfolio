@@ -1,5 +1,4 @@
-import React from "react";
-import "../index.css"; // Assuming you have the necessary Tailwind CSS setup
+import "../index.css";
 
 const TestHero = () => {
   return (
