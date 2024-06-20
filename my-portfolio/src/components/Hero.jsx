@@ -29,7 +29,12 @@ const Hero = () => {
         <div className="mt-18">
           <button
             className="bg-text-color text-white font-bold px-9   py-4 rounded-lg hover:bg-bg-color"
-            onClick={() => window.open("path/to/your/cv.pdf", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/presentation/d/12LJsZs-MW6vDvklOQwUMPFyxVBxbmxN7nhUfPH_p7OY/edit?usp=sharing",
+                "_blank"
+              )
+            }
           >
             Explore CV
           </button>
