@@ -1,11 +1,11 @@
 import instagram from "../../public/assets/icons/instagram.png";
 import github from "../../public/assets/icons/github.png";
-import linkedin from "../../public/assets/icons/linked.png";
+import linkedin from "../../public/assets/icons/linkedin.png";
 import CV from "../../public/assets/icons/user-profile.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white text-center flex flex-row justify-between py-28">
+    <footer className="bg-gray-700 text-white text-center flex flex-row justify-between py-28">
       <div className="mt-4 ml-10">
         <h5 className="font-bold mb-8">Reach out to me:</h5>
         <div className="flex flex-row justify-between items-center space-x-4">

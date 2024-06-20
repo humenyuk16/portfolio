@@ -13,6 +13,8 @@ export const theme = {
       'bg-image': "url('/assets/images/bg.jpg')",
       'bg-image-line': "url('/assets/images/Frame.png')",
       'drop-line': "url('/assets/images/drop_line.png')",
+      'texture': "url('./assets/images/texture_bg.png')",
+      'bg_section': "url('./assets/images/bg_section.png')",
       "elips": "url('./assets/images/Ellipse13.png')",
       'custom-gradient': 'linear-gradient(45deg, #eac2b1, #f6e3e4, #f6cdd4)',
       'section-gradient': 'linear-gradient(to bottom, #fcecce, #ffffff)',
@@ -20,6 +22,8 @@ export const theme = {
     backgroundColor: {
       'white-70': 'rgba(255, 255, 255, 0.4)',
       'custom-color-40': 'rgba(248, 173, 184, 0.2)',
+      'custom-color-30': 'rgba(248, 173, 184, 0.1)',
+      'custom-color2': 'rgba(248, 173, 184, 0.0)',
     },
     colors: {
       'bg-color': '#eac2b1',

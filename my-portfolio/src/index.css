@@ -21,28 +21,9 @@ body {
   }
 }
 
-.elliptical-line {
-  position: relative;
-  display: inline-block;
-}
-
-.elliptical-line::before {
-  content: "";
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 160%; /* Adjust width to create ellipse */
-  height: 1.8em; /* Adjust height to create ellipse */
-  border: 1px solid black;
-  border-radius: 50%;
-  pointer-events: none;
-}
-
 .bg-container {
-  border-radius: 70px 252.5px 33px 143px;
-
   overflow: hidden;
+  width: 70%;
 }
 
 .modal-overlay {
@@ -96,4 +77,22 @@ body {
 
 .text-6xl.relative {
   height: 2em;
+}
+.rotate-text {
+  position: absolute;
+  right: -13rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  text-align: center;
+  font-weight: bold;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 640px) {
+  .rotate-text {
+    right: -2rem;
+    font-size: 1rem;
+  }
 }
