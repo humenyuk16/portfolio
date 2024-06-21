@@ -9,6 +9,12 @@ export const theme = {
       lg: '8px',
       xl: '12px',
     },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
     backgroundImage: {
       'bg-image': "url('/assets/images/bg.jpg')",
       'bg-image-line': "url('/assets/images/Frame.png')",
@@ -21,6 +27,7 @@ export const theme = {
     },
     backgroundColor: {
       'white-70': 'rgba(255, 255, 255, 0.4)',
+      'custom-color-60': 'rgba(248, 173, 184, 0.6)',
       'custom-color-40': 'rgba(248, 173, 184, 0.2)',
       'custom-color-30': 'rgba(248, 173, 184, 0.1)',
       'custom-color2': 'rgba(248, 173, 184, 0.0)',

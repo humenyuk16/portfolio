@@ -75,9 +75,6 @@ body {
   opacity: 1;
 }
 
-.text-6xl.relative {
-  height: 2em;
-}
 .rotate-text {
   position: absolute;
   right: -13rem;
@@ -92,7 +89,19 @@ body {
 
 @media (max-width: 640px) {
   .rotate-text {
-    right: -2rem;
-    font-size: 1rem;
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 20px;
+    right: auto;
+    text-align: center;
+  }
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-wrap > button {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin-bottom: 14px;
   }
 }

@@ -2,13 +2,12 @@ import "../index.css";
 
 const TestHero = () => {
   return (
-    <div className="bg-texture flex items-center justify-center min-h-screen">
+    <div className="bg-texture bg-cover bg-center flex items-center justify-center min-h-screen">
       <div className="text-center relative">
-        <div className="absolute top-0 left-0 w-full flex justify-center"></div>
-        <h1 className="mt-10 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold">
+        <h1 className="mt-10 text-7xl sm:text-6xl md:text-8xl lg:text-9xl font-bold">
           Portfolio
         </h1>
-        <div className="rotate-text">
+        <div className="rotate-text sm:rotate-text-mobile">
           <span className="p-2 sm:p-3 md:p-4 rounded-full">
             Frontend Developer
           </span>

@@ -57,7 +57,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-drop-line flex flex-row justify-center items-center"
+      className="py-20 bg-bg_section bg-cover bg-left flex flex-row justify-center items-center"
     >
       <Modal
         isOpen={modalIsOpen}
@@ -65,7 +65,7 @@ const Contact = () => {
         title={modalContent.title}
         message={modalContent.message}
       />
-      <div>
+      <div className="">
         <img src={FormImage} alt="Contact Image" />
       </div>
       <div className="container mx-auto">
