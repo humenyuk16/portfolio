@@ -3,6 +3,7 @@ import useVisibility from "../hooks/useVisibility";
 import ProjectCard from "./ProjectCard";
 import Meal_Sharing from "../../public/assets/project_img/meal_sharing.png";
 import QuizApp from "../../public/assets/project_img/quiz_app.png";
+import AtomicLearning from "../../public/assets/project_img/atomic_learning.png";
 import Todo from "../../public/assets/project_img/todo.png";
 import AdviceGenerator from "../../public/assets/project_img/advice_generator.png";
 import FigmaProject1 from "../../public/assets/project_img/figma1.png";
@@ -16,10 +17,17 @@ const Projects = () => {
     {
       title: "Meal-Sharing App",
       description:
-        "A full-stack application that allows users to share and find meals. Built with Node.js, Express, and React.",
+        "A full-stack application that enables users to share and find meals. Built with Node.js, Express, React, and Tailwind CSS, it connects users for meal sharing and community building",
       imgUrl: Meal_Sharing,
       demoLink: "https://meals-sharing-1.onrender.com",
       codeLink: "https://github.com/humenyuk16/meals-sharing",
+    },
+    {
+      title: "Atomic Learning",
+      description:
+        "This team project created a landing page using React and Tailwind CSS to provide employees with more opportunities and ensure a clear, transparent path for everyone in the organization.",
+      imgUrl: AtomicLearning,
+      demoLink: "https://atomic-learning-systems-hackyourfuture.onrender.com",
     },
     {
       title: "Quiz App",
