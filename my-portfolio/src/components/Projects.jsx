@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Meal-Sharing App",
       description:
-        "A full-stack application that enables users to share and find meals. Built with Node.js, Express, React, and Tailwind CSS, it connects users for meal sharing and community building",
+        "A full-stack application that enables users to share and find meals. Built with Node.js, Express.js, ReactJS and mySQL. it connects users for meal sharing and community building",
       imgUrl: Meal_Sharing,
       demoLink: "https://meals-sharing-1.onrender.com",
       codeLink: "https://github.com/humenyuk16/meals-sharing",
